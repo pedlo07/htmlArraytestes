@@ -36,3 +36,4 @@ var teste1 = {
     email : 'pedrinhodabarra@teste.com'
 }
 console.log(teste1);
+console.log(JSON.stringify(teste1));
