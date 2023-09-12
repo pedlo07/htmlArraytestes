@@ -37,3 +37,16 @@ var teste1 = {
 }
 console.log(teste1);
 console.log(JSON.stringify(teste1));
+
+
+// callback Javascript
+function meuCallback(nome){
+    console.log("olá meu nome é" + nome);
+}
+
+function saudacao(nome, callback){
+    console.log("teste");
+    callback(nome);
+}
+
+saudacao("Teste ", meuCallback);
